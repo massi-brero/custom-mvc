@@ -1,0 +1,14 @@
+{
+    "name": "massi.brero/mvc",
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "authors": [
+        {
+            "name": "massisoft"
+        }
+    ],
+    "require": {}
+}
