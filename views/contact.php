@@ -1,20 +1,16 @@
 <h1>Contact us!</h1>
-<form action="" method="post">
+<form action="contact" method="post">
     <div class="mb-3">
         <label for="subject" class="form-label">Subject</label>
-        <input type="text" class="form-control" id="subject" aria-describedby="">
+        <input type="text" class="form-control" name="subject" id="subject" aria-describedby="">
     </div>
     <div class="mb-3">
         <label for="email" class="form-label">Email</label>
-        <input type="email" class="form-control" id="email" aria-describedby="">
+        <input type="email" class="form-control" name="email" id="email" aria-describedby="">
     </div>
     <div class="mb-3">
-        <label for="body" class="form-label">Subject</label>
-        <textarea class="form-control" id="body" aria-describedby=""></textarea>
-    </div>
-    <div class="mb-3">
-        <label for="subject" class="form-label">Subject</label>
-        <input type="text" class="form-control" id="subject" aria-describedby="">
+        <label for="feedback" class="form-label">Feedback</label>
+        <textarea class="form-control" name="feedback" id="feedback" aria-describedby=""></textarea>
     </div>
     <button type="submit" class="btn btn-primary">Submit</button>
 </form>
