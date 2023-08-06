@@ -53,7 +53,7 @@ class Router
       $callback[0] = $this->instantiateClass($callback[0]);
     }
 
-    echo call_user_func($callback, $this->request);
+    return call_user_func($callback, $this->request);
   }
 
   public function renderView(string $view, array $params = [])
