@@ -13,7 +13,7 @@
 
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
-            <div class="navbar-brand ms-3" href="#">MassiSoft || </div>
+            <div class="navbar-brand ms-3">MassiSoft || </div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

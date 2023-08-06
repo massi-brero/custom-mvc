@@ -1,5 +1,5 @@
 <h1>Contact us!</h1>
-<form action="contact" method="post">
+<form action="/contact" method="post">
     <div class="mb-3">
         <label for="subject" class="form-label">Subject</label>
         <input type="text" class="form-control" name="subject" id="subject" aria-describedby="">
